@@ -32,7 +32,7 @@
             >
               <img
                 src="/assets/img/dashboard-icon.png"
-                class="dashboard-icon"
+                class="dashboard-icon icon"
               />
 
               <p class="dashboard-link position-absolute">Dashboard</p>
@@ -69,17 +69,19 @@
         <button class="openbtn" onclick="openNav()">
           <img src="/assets/img/menu.png" class="menu" />
         </button>
-        <div class="input-group">
-          <input
-            type="search"
-            class="form-control search"
-            placeholder="Search"
-            aria-label="Search"
-            aria-describedby="search-addon"
-          />
-          <span class="input-group-text border-0" id="search-addon">
-            <i class="fas fa-search"></i>
-          </span>
+        <div class="d-flex">
+          <div class="input-group search">
+            <input
+              type="search"
+              class="form-control search"
+              placeholder="Search"
+              aria-label="Search"
+              aria-describedby="search-addon"
+            />
+            <span class="input-group-text search-icon" id="search-addon">
+              <i class="fas fa-search"></i>
+            </span>
+          </div>
         </div>
       </div>
       <div class="main-content h-100 w-100">hello</div>

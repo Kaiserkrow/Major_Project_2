@@ -1,13 +1,12 @@
 function openNav() {
   let width = window.innerWidth;
-
+  let sideBar = document.getElementById("mySidebar");
   if (width < 600) {
-    let sideBar = document.getElementById("mySidebar");
     sideBar.style.borderTopRightRadius = "0px";
     sideBar.style.borderBottomRightRadius = "0px";
-    document.getElementById("mySidebar").style.width = "100vw";
+    sideBar.style.width = "100vw";
   } else {
-    document.getElementById("mySidebar").style.width = "250px";
+    sideBar.style.width = "250px";
   }
 
   document.getElementById("main").style.marginLeft = "250px";
